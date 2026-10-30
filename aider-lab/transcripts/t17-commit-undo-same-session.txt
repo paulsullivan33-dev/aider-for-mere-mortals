@@ -1,0 +1,56 @@
+Warning: Input is not a terminal (fd=0).
+Analytics have been permanently disabled.
+────────────────────────────────────────────────────────────────────────────────
+HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=5)
+OllamaError: Error getting model info for llama3.2. Set Ollama API Base via `OLLAMA_API_BASE` environment variable. Error: [Errno 111] Connection refused
+Warning for ollama/llama3.2: Unknown context window size and costs, using sane 
+defaults.
+Did you mean one of these?
+- ollama/llama2
+- ollama/llama3
+- ollama/llama3.1
+You can skip this check with --no-show-model-warnings
+
+https://aider.chat/docs/llms/warnings.html
+
+Aider v0.86.2
+Model: ollama/llama3.2 with whole edit format
+Git repo: .git with 4 files
+Repo-map: using 1024 tokens, auto refresh
+────────────────────────────────────────────────────────────────────────────────
+>  
+
+
+
+
+
+
+                                                                                                                                                                 > /commit Note the bean sowing rule                                                                                                                            
+
+
+
+
+
+
+                                                                                                                                                                                                  > /commit Note the bean sowing rule                                                                                                                            
+
+Commit 487685c Note the bean sowing rule
+You can use /undo to undo and discard each aider commit.
+────────────────────────────────────────────────────────────────────────────────
+> /undo                                                                                                                                                               > /undo                                                                                                                                                        
+
+The last commit was not made by aider in this chat session.
+You could try `/git reset --hard HEAD^` but be aware that this is a destructive 
+command!
+────────────────────────────────────────────────────────────────────────────────
+> /exit                                                                                                                                                               > /exit                                                                                                                                                        
+
+$ git log --oneline
+487685c Note the bean sowing rule
+1f3460b Add a watering note to garden.py
+28e8646 Add the .gitignore aider made
+56a6503 Garden planner: first version
+
+$ tail -2 garden.py
+# Water in the morning, not at noon: hot leaves scorch.
+# Beans go in after the last frost.

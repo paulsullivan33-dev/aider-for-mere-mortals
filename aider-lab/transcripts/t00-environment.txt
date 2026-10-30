@@ -1,0 +1,10 @@
+== environment ==
+Python 3.12.3
+pip 24.0 from /usr/lib/python3/dist-packages/pip (python 3.12)
+/usr/bin/git
+git version 2.43.0
+Linux htch-runtime 7.0.0-39-generic #1 SMP PREEMPT_DYNAMIC Thu Sep 24 08:42:15 UTC 2026 x86_64 x86_64 x86_64 GNU/Linux
+2
+               total        used        free      shared  buff/cache   available
+Mem:           7.7Gi       6.8Gi       225Mi       122Mi       1.1Gi       945Mi
+/dev/mapper/rv  200G   24G  176G  12% /home/hatch

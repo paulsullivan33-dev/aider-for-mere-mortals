@@ -1,0 +1,26 @@
+$ aider --show-repo-map   (standalone, no chat)
+Do not propose changes to these files, treat them as *read-only*.
+If you need to edit any of these files, ask me to *add them to the chat* first.
+
+README.md
+
+garden.py:
+⋮
+│def days_to_harvest(crop, days_since_sowing):
+⋮
+│def water_litres(plants):
+⋮
+│def bed_summary(plants, days_since_sowing):
+⋮
+
+test_garden.py:
+⋮
+│class TestGarden(unittest.TestCase):
+│    def test_days_to_harvest(self):
+│        self.assertEqual(days_to_harvest("lettuce", 45), 0)
+⋮
+│    def test_water_litres(self):
+⋮
+│    def test_bed_summary(self):
+⋮
+

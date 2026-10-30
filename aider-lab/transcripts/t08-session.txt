@@ -1,0 +1,101 @@
+Warning: Input is not a terminal (fd=0).
+Analytics have been permanently disabled.
+────────────────────────────────────────────────────────────────────────────────
+HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=5)
+OllamaError: Error getting model info for llama3.2. Set Ollama API Base via `OLLAMA_API_BASE` environment variable. Error: [Errno 111] Connection refused
+Warning for ollama/llama3.2: Unknown context window size and costs, using sane 
+defaults.
+Did you mean one of these?
+- ollama/llama2
+- ollama/llama3
+- ollama/llama3.1
+You can skip this check with --no-show-model-warnings
+
+https://aider.chat/docs/llms/warnings.html
+
+Aider v0.86.2
+Model: ollama/llama3.2 with whole edit format
+Git repo: .git with 3 files
+Repo-map: using 1024 tokens, auto refresh
+Added garden.py to the chat.
+────────────────────────────────────────────────────────────────────────────────
+garden.py                                                                                                                                                      
+>  
+
+
+
+
+
+                                                                                                                                                                 garden.py                                                                                                                                                      
+> /ls                                                                                                                                                          
+
+Repo files not in the chat:
+
+  README.md
+  test_garden.py
+
+Files in chat:
+
+  garden.py
+────────────────────────────────────────────────────────────────────────────────
+garden.py                                                                                                                                                      
+> /map                                                                                                                                                               garden.py                                                                                                                                                      
+> /map                                                                                                                                                         
+
+Here are summaries of some files present in my git repository.
+Do not propose changes to these files, treat them as *read-only*.
+If you need to edit any of these files, ask me to *add them to the chat* first.
+
+README.md
+
+test_garden.py:
+⋮
+│class TestGarden(unittest.TestCase):
+│    def test_days_to_harvest(self):
+│        self.assertEqual(days_to_harvest("lettuce", 45), 0)
+⋮
+│    def test_water_litres(self):
+⋮
+│    def test_bed_summary(self):
+⋮
+
+────────────────────────────────────────────────────────────────────────────────
+garden.py                                                                                                                                                      
+> /tokens                                                                                                                                                               garden.py                                                                                                                                                      
+> /tokens                                                                                                                                                      
+
+Approximate context window usage for ollama/llama3.2, in tokens:
+
+$ 0.0000      450 system messages 
+$ 0.0000      129 repository map  use --map-tokens to resize
+$ 0.0000      361 garden.py       /drop to remove
+==================
+$ 0.0000      940 tokens total
+────────────────────────────────────────────────────────────────────────────────
+garden.py                                                                                                                                                      
+> /add test_garden.py                                                                                                                                                               garden.py                                                                                                                                                      
+> /add test_garden.py                                                                                                                                          
+
+Added test_garden.py to the chat
+────────────────────────────────────────────────────────────────────────────────
+garden.py test_garden.py                                                                                                                                       
+> /run python3 -m unittest                                                                                                                                                               garden.py test_garden.py                                                                                                                                       
+> /run python3 -m unittest                                                                                                                                     
+
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+Added 5 lines of output to the chat.
+────────────────────────────────────────────────────────────────────────────────
+garden.py test_garden.py                                                                                                                                       
+> /drop test_garden.py                                                                                                                                                               garden.py test_garden.py                                                                                                                                       
+> /drop test_garden.py                                                                                                                                         
+
+Removed test_garden.py from the chat
+────────────────────────────────────────────────────────────────────────────────
+garden.py                                                                                                                                                      
+> /exit                                                                                                                                                               garden.py                                                                                                                                                      
+> /exit                                                                                                                                                        
+

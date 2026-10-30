@@ -1,0 +1,42 @@
+$ aider --models ollama   (run inside a git repo)
+Warning: Input is not a terminal (fd=0).
+Analytics have been permanently disabled.
+────────────────────────────────────────────────────────────────────────────────
+You can skip this check with --no-gitignore
+Added .aider* to .gitignore
+Models which match "ollama":
+- ollama/codegeex4
+- ollama/deepseek-coder-v2-instruct
+- ollama/deepseek-coder-v2-lite-instruct
+- ollama/deepseek-v3.1:671b-cloud
+- ollama/gpt-oss:120b-cloud
+- ollama/gpt-oss:20b-cloud
+- ollama/internlm2_5-20b-chat
+- ollama/llama2
+- ollama/llama2:13b
+- ollama/llama2:70b
+- ollama/llama2:7b
+- ollama/llama3
+- ollama/llama3.1
+- ollama/llama3:70b
+- ollama/llama3:8b
+- ollama/mistral-7B-Instruct-v0.1
+- ollama/mistral-7B-Instruct-v0.2
+- ollama/mistral-large-instruct-2407
+- ollama/mixtral-8x22B-Instruct-v0.1
+- ollama/mixtral-8x7B-Instruct-v0.1
+- ollama/qwen3-coder:480b-cloud
+
+$ aider --models gpt-5   (first 12 lines)
+Warning: Input is not a terminal (fd=0).
+Analytics have been permanently disabled.
+────────────────────────────────────────────────────────────────────────────────
+Models which match "gpt-5":
+- azure/eu/gpt-5-2025-08-07
+- azure/eu/gpt-5-mini-2025-08-07
+- azure/eu/gpt-5-nano-2025-08-07
+- azure/eu/gpt-5.1
+- azure/eu/gpt-5.1-chat
+- azure/global/gpt-5.1
+- azure/global/gpt-5.1-chat
+- azure/gpt-5

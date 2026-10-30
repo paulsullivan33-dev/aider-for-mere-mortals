@@ -1,0 +1,27 @@
+$ ls -a
+.
+..
+.aider.chat.history.md
+.aider.input.history
+.aider.tags.cache.v4
+.git
+.gitignore
+README.md
+__pycache__
+garden.py
+test_garden.py
+
+$ cat .gitignore
+.aider*
+.env
+
+$ git status --short
+?? .gitignore
+?? __pycache__/
+
+$ head -5 .aider.chat.history.md
+
+# aider chat started at 2026-10-30 06:09:14
+
+> You can skip this check with --no-gitignore  
+> Add .aider* to .gitignore (recommended)? (Y)es/(N)o [Yes]: y  

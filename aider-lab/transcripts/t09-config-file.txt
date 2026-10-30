@@ -1,0 +1,35 @@
+$ cat .aider.conf.yml
+# Lab config: every value below is chosen to be visible in
+# aider's banner or /tokens output, so pickup can be proved.
+model: ollama/llama3.2
+map-tokens: 512
+auto-commits: false
+
+$ aider (no --model on the command line) with piped /tokens, /exit
+Warning: Input is not a terminal (fd=0).
+Analytics have been permanently disabled.
+────────────────────────────────────────────────────────────────────────────────
+HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=5)
+OllamaError: Error getting model info for llama3.2. Set Ollama API Base via `OLLAMA_API_BASE` environment variable. Error: [Errno 111] Connection refused
+Warning for ollama/llama3.2: Unknown context window size and costs, using sane 
+defaults.
+Did you mean one of these?
+- ollama/llama2
+- ollama/llama3
+- ollama/llama3.1
+You can skip this check with --no-show-model-warnings
+https://aider.chat/docs/llms/warnings.html
+Aider v0.86.2
+Model: ollama/llama3.2 with whole edit format
+Git repo: .git with 3 files
+Repo-map: using 512 tokens, auto refresh
+────────────────────────────────────────────────────────────────────────────────
+>  
+                                                                                                                                                                 > /tokens                                                                                                                                                      
+Approximate context window usage for ollama/llama3.2, in tokens:
+$ 0.0000      450 system messages 
+$ 0.0000      184 repository map  use --map-tokens to resize
+==================
+$ 0.0000      634 tokens total
+────────────────────────────────────────────────────────────────────────────────
+> /exit                                                                                                                                                               > /exit                                                                                                                                                        

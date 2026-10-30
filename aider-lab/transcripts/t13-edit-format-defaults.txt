@@ -1,0 +1,20 @@
+Edit formats are chosen per model. The banner names the
+format before any message is sent, so it can be read with
+a stopped clock and a key that does not work.
+
+$ aider --model ollama/llama3.2 (from t06)
+Model: ollama/llama3.2 with whole edit format
+
+$ aider --model gpt-4o-mini (from t10)
+Model: gpt-4o-mini with whole edit format
+
+$ aider --model anthropic/claude-sonnet-4-5 (banner only)
+Model: anthropic/claude-sonnet-4-5 with diff edit format, infinite output
+
+$ aider --model ollama/llama3.2 --edit-format diff (explicit override)
+Model: ollama/llama3.2 with diff edit format
+
+One more run, --model gpt-5 with the same fake key,
+printed no banner inside 45 seconds on this shared
+machine and was stopped; the guide makes no claim
+about its default.

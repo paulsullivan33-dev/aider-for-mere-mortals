@@ -1,0 +1,14 @@
+$ cat .env   (an obviously fake key, used only to see which error aider gives)
+OPENAI_API_KEY=<redacted>
+
+$ env -i ... aider --model gpt-4o-mini --message "Say hello" garden.py
+  If aider ignores .env, it complains that no OpenAI key exists.
+  If it reads .env, it uses the fake key and the API rejects it.
+Added .env to .gitignore
+HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=5)
+Aider v0.86.2
+Model: gpt-4o-mini with whole edit format
+Git repo: .git with 3 files
+Repo-map: using 4096 tokens, auto refresh
+Added garden.py to the chat.
+

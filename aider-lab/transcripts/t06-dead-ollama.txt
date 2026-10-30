@@ -1,0 +1,41 @@
+$ OLLAMA_API_BASE=http://127.0.0.1:11434 aider --model ollama/llama3.2 --message "Say hello" garden.py   (nothing is listening on 11434)
+Warning: Input is not a terminal (fd=0).
+Analytics have been permanently disabled.
+────────────────────────────────────────────────────────────────────────────────
+HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=5)
+OllamaError: Error getting model info for llama3.2. Set Ollama API Base via `OLLAMA_API_BASE` environment variable. Error: [Errno 111] Connection refused
+Warning for ollama/llama3.2: Unknown context window size and costs, using sane 
+defaults.
+Did you mean one of these?
+- ollama/llama2
+- ollama/llama3
+- ollama/llama3.1
+You can skip this check with --no-show-model-warnings
+
+https://aider.chat/docs/llms/warnings.html
+
+Aider v0.86.2
+Model: ollama/llama3.2 with whole edit format
+Git repo: .git with 3 files
+Repo-map: using 1024 tokens, auto refresh
+Added garden.py to the chat.
+
+litellm.APIConnectionError: OllamaException - [Errno 111] Connection refused
+Retrying in 0.2 seconds...
+litellm.APIConnectionError: OllamaException - [Errno 111] Connection refused
+Retrying in 0.5 seconds...
+litellm.APIConnectionError: OllamaException - [Errno 111] Connection refused
+Retrying in 1.0 seconds...
+litellm.APIConnectionError: OllamaException - [Errno 111] Connection refused
+Retrying in 2.0 seconds...
+litellm.APIConnectionError: OllamaException - [Errno 111] Connection refused
+Retrying in 4.0 seconds...
+litellm.APIConnectionError: OllamaException - [Errno 111] Connection refused
+Retrying in 8.0 seconds...
+litellm.APIConnectionError: OllamaException - [Errno 111] Connection refused
+Retrying in 16.0 seconds...
+litellm.APIConnectionError: OllamaException - [Errno 111] Connection refused
+Retrying in 32.0 seconds...
+litellm.APIConnectionError: OllamaException - [Errno 111] Connection refused
+
+exit: 0

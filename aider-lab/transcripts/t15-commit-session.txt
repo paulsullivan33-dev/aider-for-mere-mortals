@@ -1,0 +1,55 @@
+Warning: Input is not a terminal (fd=0).
+Analytics have been permanently disabled.
+────────────────────────────────────────────────────────────────────────────────
+HTTPSConnectionPool(host='raw.githubusercontent.com', port=443): Read timed out. (read timeout=5)
+OllamaError: Error getting model info for llama3.2. Set Ollama API Base via `OLLAMA_API_BASE` environment variable. Error: [Errno 111] Connection refused
+Warning for ollama/llama3.2: Unknown context window size and costs, using sane 
+defaults.
+Did you mean one of these?
+- ollama/llama2
+- ollama/llama3
+- ollama/llama3.1
+You can skip this check with --no-show-model-warnings
+
+https://aider.chat/docs/llms/warnings.html
+
+Aider v0.86.2
+Model: ollama/llama3.2 with whole edit format
+Git repo: .git with 4 files
+Repo-map: using 1024 tokens, auto refresh
+────────────────────────────────────────────────────────────────────────────────
+>  
+
+
+
+
+
+
+                                                                                                                                                                 > /commit Add a watering note to garden.py                                                                                                                     
+
+
+
+
+
+
+                                                                                                                                                                                                         > /commit Add a watering note to garden.py                                                                                                                     
+
+Commit 1f3460b Add a watering note to garden.py
+You can use /undo to undo and discard each aider commit.
+────────────────────────────────────────────────────────────────────────────────
+> /exit                                                                                                                                                               > /exit                                                                                                                                                        
+
+$ git log --oneline
+1f3460b Add a watering note to garden.py
+28e8646 Add the .gitignore aider made
+56a6503 Garden planner: first version
+
+$ git show --stat HEAD | head -8
+commit 1f3460b4445bbee8bd9bc5c745b087a552a79738
+Author: Lab <lab@example.org>
+Date:   Fri Oct 30 07:43:47 2026 +0000
+
+    Add a watering note to garden.py
+
+ garden.py | 1 +
+ 1 file changed, 1 insertion(+)

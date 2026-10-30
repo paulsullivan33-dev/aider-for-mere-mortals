@@ -1,0 +1,14 @@
+$ env -i (no API keys anywhere) aider --message "Say hello" garden.py
+Warning: Input is not a terminal (fd=0).
+Analytics have been permanently disabled.
+────────────────────────────────────────────────────────────────────────────────
+No LLM model was specified and no API keys were provided.
+OpenRouter provides free and paid access to many LLMs.
+
+Please open this URL in your browser to connect Aider with OpenRouter:
+
+https://openrouter.ai/auth?callback_url=http://localhost:8484/callback/aider&code_challenge=ZZwSjbhjJJPYApaKeCp4hwlkrUGaparuH_X98PeVhKk&code_challenge_method=S256
+
+Waiting up to 5 minutes for you to finish in the browser...
+Use Control-C to interrupt.
+exit: 124
